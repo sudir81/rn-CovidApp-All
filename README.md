@@ -1,0 +1,1 @@
+# RN_Covid_app_All
