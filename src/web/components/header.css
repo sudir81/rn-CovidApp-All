@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid lightgray;
+}
+.header_icon {
+  object-fit: contain;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 7vw;
+  margin-right: 20px;
+}

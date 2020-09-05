@@ -1,0 +1,50 @@
+.homePage {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.home_header {
+  display: flex;
+  color: red;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.home_dropdown {
+  background-color: white;
+}
+
+.covid_stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home_left {
+  flex: 0.9;
+}
+
+.home_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_right .MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.graph_title {
+  margin: 20px 0 20px 0;
+}
+
+.home_graph {
+  flex-grow: 1;
+}
+
+@media (max-width: 990px) {
+  .homePage {
+    flex-direction: column;
+  }
+}
