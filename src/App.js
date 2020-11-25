@@ -7,7 +7,6 @@
  */
 
 import React from 'react';
-import './app.css';
 import {
   SafeAreaView,
   StyleSheet,
